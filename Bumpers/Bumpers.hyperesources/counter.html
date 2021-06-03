@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>counter</title>
+
+
+
+</head>
+
+<body style="background-color:#000000;">
+
+<script>
+    var sec = 0;
+    function pad ( val ) { return val > 9 ? val : "0" + val; }
+    setInterval( function(){
+        document.getElementById("seconds").innerHTML=pad(++sec%60);
+        document.getElementById("minutes").innerHTML=pad(parseInt(sec/60,10));
+    }, 1000);
+</script>
+
+<center>
+<h1 style="color:red;">
+<span id="minutes"></span>:<span id="seconds"></span>
+</h1>
+</center>
+
+</body>
+</html>
