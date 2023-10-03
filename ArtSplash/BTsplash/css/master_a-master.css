@@ -1,0 +1,60 @@
+#u72,#u71
+{
+	color: #FFFFFF;
+}
+
+#u65_img,#u75_img
+{
+	vertical-align: top;
+}
+
+#u65,#u75,#u80
+{
+	position: relative;
+}
+
+#u81
+{
+	position: relative;
+}
+
+#u82
+{
+	position: relative;
+}
+
+#u83
+{
+	position: relative;
+}
+
+.ie #u80,.ie #u81,.ie #u82,.ie #u83
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u70-4,#u84-4
+{
+	text-align: center;
+	font-size: 21px;
+	color: #FFFFFF;
+	position: relative;
+}
+
+#u72-4,#u71-4,#u85-5
+{
+	text-align: center;
+	position: relative;
+}
+
+#u73
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
