@@ -1,0 +1,20 @@
+<manifest alg="2" build="945" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="3873604488"/>
+    <file name="master_a-master.css" crc="3927181392" ref="index"/>
+    <file name="index.css" crc="414351398" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="4285342938" ref="index"/>
+      <file name="museutils.js" crc="289253676" ref="index"/>
+      <file name="pie.js" crc="3786417276" ref="index"/>
+      <file name="pie.htc" crc="354638364" ref="index"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="hexbanner.jpg" crc="3773857284" ref="index"/>
+    <file name="socialmini.png" crc="152229089" ref="index"/>
+  </folder>
+  <file name="index.html" crc="407401137" mt="1346104859178"/>
+</manifest>
