@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color Range Slider</title>
+<style>
+#value_display {
+	width: 40px;
+}
+</style>
+<script>
+window.onload = function() {
+	var hue = 240;
+	var slider = document.getElementById("slider");
+	var value_display = document.getElementById("value_display");
+
+	slider.value = hue;
+	value_display.value = hue;
+	document.body.style.background = "hsl(" + hue + ", 100%, 50%)";
+
+	slider.onchange = function() {
+		value_display.value = this.value;
+		document.body.style.background = "hsl(" + this.value + ", 100%, 50%)";
+	}
+}
+</script>
+</head>
+
+<body>
+	<input type="range" min="0" max="360" step="1" id="slider" /><br />
+	Value: <input type="text" id="value_display" />
+</body>
+</html>
