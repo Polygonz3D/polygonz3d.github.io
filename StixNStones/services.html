@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <style>
 body {
   box-sizing: border-box;
@@ -52,7 +53,51 @@ header {
 
 </style>
 <title>Stix and Stones Texas</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: calc(25% - 20px);
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery-item {
+    width: calc(100% - 20px);
+  }
+}
+</style>
 </head>
+
 <header>
 <center>
 <img src="StixNStonesBanner.jpg" alt=“Stix and Stones logo” width=100% height=25%>
@@ -66,23 +111,77 @@ header {
   <li><a href="https://polygonz3d.github.io/StixNStones/about.html">About</a></li>
 </ul>
 <center>
-<h2>Welcome to Stix and Stones Texas!</h2>
+<h2>Services and Gallery</h2>
 </center>
-<p style="background-color: #6e8567; border-radius: 10px; padding: 5px; color:black;"> 
-<b>
-Landscape design
-<br></br>
+<div class="w3-container">
 
-Landscape design is an independent profession and a design and art tradition, practiced by landscape designers, combining nature and culture. In contemporary practice, landscape design bridges the space between landscape architecture and garden design.
+<h2>Our Vision Is Realizing Your Vision</h2>
+<p>Offering custom landscaping solutions for every dream you want manifested into a beautiful living environment solution.</p>
 
-Landscape design focuses on both the integrated master landscape planning of a property and the specific garden design of landscape elements and plants within it. The practical, aesthetic, horticultural, and environmental sustainability are also components of landscape design, which is often divided into hardscape design and softscape design. Landscape designers often collaborate with related disciplines such as architecture, civil engineering, surveying, landscape contracting, and artisan specialties.
 
-Design projects may involve two different professional roles: landscape design and landscape architecture.
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align w3-light-grey">
+Our Landscaping Services</button>
 
-    Landscape design typically involves artistic composition and artisanship, horticultural finesse and expertise, and emphasis on detailed site involvement from conceptual stages through to final construction.
-    Landscape architecture focuses more on urban planning, city and regional parks, civic and corporate landscapes, large-scale interdisciplinary projects, and delegation to contractors after completing designs.
-</b>
-</p>
+<div id="Demo2" class="w3-hide w3-container">
+  <p>Landscaping refers to any activity that modifies the visible features of an area of land, including the following: One - Living elements, such as flora or fauna; or what is commonly called gardening, the art and craft of growing plants with a goal of creating a beauty within the landscape. Two - Natural abiotic elements, such as landforms, terrain shape and elevation, or bodies of water. Three - Abstract elements, such as the weather and lighting conditions. Landscaping requires a certain understanding of horticulture and artistic design, but is not limited to plants and horticulture. Sculpting land to enhance usability (patio, walkways, ponds, water features) are also examples of landscaping being used. When intended as purely an aesthetic change, the term Ornamental Landscaping is used. Often, designers refer to landscaping as an extension of rooms in your house (each one has a function). Outdoor spaces have a vast amount of flexibility as far as materials and function. It is often said the only limitation to outdoor space is one's imagination. </p>
+</div>
+
+<button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-grey">
+Gallery Of Past Projects</button>
+
+<div id="Demo3" class="w3-hide w3-container w3-center w3-pale-light-grey">
+ 
+<h2>Image Gallery</h2>
+
+<h4>Click on an image for detailed view</h4>
+
+<div class="gallery">
+
+<div class="gallery-item">
+  <a target="_blank" href="garden.jpg">
+    <img src="garden.jpg" alt=“Garden 1” width="600" height="400">
+  </a>
+  <div class="desc">Garden 1</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="garden.jpg">
+    <img src="garden.jpg" alt=“Garden 2” width="600" height="400">
+  </a>
+  <div class="desc">Garden 2</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="garden.jpg">
+    <img src="garden.jpg" alt=“Garden 3” width="600" height="400">
+  </a>
+  <div class="desc">Garden 3</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="garden.jpg">
+    <img src="garden.jpg" alt=“Garden 4” width="600" height="400">
+  </a>
+  <div class="desc">Garden 4</div>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+</body>
 <footer>
 <ul>
   <li><a href=“https://polygonz3d.github.io/StixNStones/home.html”>Home</a></li>
