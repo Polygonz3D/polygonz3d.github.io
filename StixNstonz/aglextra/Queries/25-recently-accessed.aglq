@@ -1,0 +1,7 @@
+<query name="25 Recently Used" description="This query finds the 25 most recently accessed files." category="by-access-time" unloced-filename="25-recently-accessed.aglq" localized="yes">
+	<and>
+		<fileinfo useall="no" selected="selected">
+			<mostrecent creatormod="accessed" numfiles="25"/>
+		</fileinfo>
+	</and>
+</query>

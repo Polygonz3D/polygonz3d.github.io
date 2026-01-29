@@ -1,0 +1,7 @@
+<query name="Find all Components" description="This query finds all Component Files." category="by-extension" unloced-filename="find-all-components.aglq" localized="yes">
+	<and>
+		<golivefile>
+			<filetype name="component"/>
+		</golivefile>
+	</and>
+</query>
