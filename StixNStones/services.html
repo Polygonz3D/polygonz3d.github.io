@@ -1,199 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="cache-control" content="no-cache">
-    <meta http-equiv="expires" content="0">
-    <meta http-equiv="pragma" content="no-cache">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<style>
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #8cb5bb;
-}
-
-h2, p {
-  margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  width: auto;
-  list-style-type: none;
-  border-radius: 8px;
-  margin: 0;
-  padding: 0;
-  background-color: #6c7e67;
-  box-shadow: 0px 5px 10px 0px black;
-  display: flex;
-}
-
-ul li a {
-  display: block;
-  width: auto;
-  color: white;
-  padding: 14px 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  width: auto;
-  background-color: darkgreen;
-  border-radius: 8px;
-}
-footer {
-  background-color: #8a9c94;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-header {
-  background-color: #8a9572;
-}
-
-</style>
-<title>Stix and Stones Texas</title>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-div.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-div.gallery-item {
-  margin: 5px;
-  border: 1px solid #ccc;
-  width: calc(25% - 20px);
-}
-
-div.gallery-item:hover {
-  border: 1px solid #777;
-}
-
-div.gallery-item img {
-  width: 100%;
-  height: auto;
-}
-
-div.gallery-item div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-  div.gallery-item {
-    width: calc(50% - 20px);
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  div.gallery-item {
-    width: calc(100% - 20px);
-  }
-}
-</style>
-</head>
-
-<header>
-<center>
-<img src="StixNStonesBanner.jpg" alt=“Stix and Stones logo” width=100% height=25%>
-</center>
-</header>
-<body>
-<ul>
-  <li><a href=“https://polygonz3d.github.io/StixNStones/home.html”>Home</a></li>
-  <li><a href="https://polygonz3d.github.io/StixNStones/services.html">Services</a></li>
-  <li><a href="https://polygonz3d.github.io/StixNStones/contact.html">Contact</a></li>
-  <li><a href="https://polygonz3d.github.io/StixNStones/about.html">About</a></li>
-</ul>
-<center>
-<h2>Services and Gallery</h2>
-</center>
-<div class="w3-container">
-
-<h2>Our Vision Is Realizing Your Vision</h2>
-<img src="gardenwall.jpg" alt=“garden wall” width=75%>
-<p>Offering custom landscaping solutions for every dream you want manifested into a beautiful living environment solution.</p>
-
-
-<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align w3-light-grey">
-Our Landscaping Services</button>
-
-<div id="Demo2" class="w3-hide w3-container">
-  <p>Landscaping refers to any activity that modifies the visible features of an area of land, including the following: One - Living elements, such as flora or fauna; or what is commonly called gardening, the art and craft of growing plants with a goal of creating a beauty within the landscape. Two - Natural abiotic elements, such as landforms, terrain shape and elevation, or bodies of water. Three - Abstract elements, such as the weather and lighting conditions. Landscaping requires a certain understanding of horticulture and artistic design, but is not limited to plants and horticulture. Sculpting land to enhance usability (patio, walkways, ponds, water features) are also examples of landscaping being used. When intended as purely an aesthetic change, the term Ornamental Landscaping is used. Often, designers refer to landscaping as an extension of rooms in your house (each one has a function). Outdoor spaces have a vast amount of flexibility as far as materials and function. It is often said the only limitation to outdoor space is one's imagination. </p>
-</div>
-
-<button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-grey">
-Gallery Of Past Projects</button>
-
-<div id="Demo3" class="w3-hide w3-container w3-center w3-pale-light-grey">
- 
-<h2>Image Gallery</h2>
-
-<h4>Click on an image for detailed view</h4>
-
-<div class="gallery">
-
-<div class="gallery-item">
-  <a target="_blank" href="garden.jpg">
-    <img src="garden.jpg" alt=“Garden 1” width="600" height="400">
-  </a>
-  <div class="desc">Garden 1</div>
-</div>
-
-<div class="gallery-item">
-  <a target="_blank" href="garden.jpg">
-    <img src="garden.jpg" alt=“Garden 2” width="600" height="400">
-  </a>
-  <div class="desc">Garden 2</div>
-</div>
-
-<div class="gallery-item">
-  <a target="_blank" href="garden.jpg">
-    <img src="garden.jpg" alt=“Garden 3” width="600" height="400">
-  </a>
-  <div class="desc">Garden 3</div>
-</div>
-
-<div class="gallery-item">
-  <a target="_blank" href="garden.jpg">
-    <img src="garden.jpg" alt=“Garden 4” width="600" height="400">
-  </a>
-  <div class="desc">Garden 4</div>
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-<script>
-function myFunction(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
-</body>
-<footer>
-<ul>
-  <li><a href=“https://polygonz3d.github.io/StixNStones/home.html”>Home</a></li>
-  <li><a href="https://polygonz3d.github.io/StixNStones/services.html">Services</a></li>
-  <li><a href="https://polygonz3d.github.io/StixNStones/contact.html">Contact</a></li>
-  <li><a href="https://polygonz3d.github.io/StixNStones/about.html">About</a></li>
-</ul>
-<p>Stix and Stones Texas 2025</p>
-</footer>
-</body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">	<head>	<meta http-equiv="cache-control" content="no-cache">    <meta http-equiv="expires" content="0">    <meta http-equiv="pragma" content="no-cache">    <meta name="viewport" content="width=device-width, initial-scale=1.0" />		<meta http-equiv="content-type" content="text/html;charset=utf-8" />		<meta name="generator" content="Adobe GoLive" />		<title>Services</title>		<link href="css/agl-styles.css" rel="stylesheet" type="text/css" media="all" />		<link href="css/basic.css" rel="stylesheet" type="text/css" media="all" />		<style type="text/css" media="all"><!--body { background-color: #9ba2b7; background-image: url(IMAGE%20ASSETS/WoodAndWireEntry.jpeg); background-repeat: no-repeat; }#container1 { width: 100%; height: 60px; padding: 8pt 12pt 16pt; }#AboutUs_button_Normal { }#Services_button_Normal { }#Certifications_button_Normal { }#Testimonials_button_Normal { }--></style>		<csscriptdict import="import">			<script type="text/javascript" src="GeneratedItems/CSScriptLib.js"></script>		</csscriptdict>		<csactiondict>			<script type="text/javascript"><!--var preloadFlag = false;function preloadImages() {	if (document.images) {		pre_AboutUs_button_Over = newImage('IMAGE%20ASSETS/AboutUs_button_Over.png');		pre_AboutUs_button_Down = newImage('IMAGE%20ASSETS/AboutUs_button_Down.png');		pre_AboutUs_button_Click = newImage('IMAGE%20ASSETS/AboutUs_button_Click.png');		pre_AboutUs_button_Out = newImage('IMAGE%20ASSETS/AboutUs_button_Out.png');		pre_AboutUs_button_Up = newImage('IMAGE%20ASSETS/AboutUs_button_Up.png');		pre_Certifications_button_Over = newImage('IMAGE%20ASSETS/Certifications_button_Over.png');		pre_Certifications_button_Down = newImage('IMAGE%20ASSETS/Certifications_button_Down.png');		pre_Certifications_button_Click = newImage('IMAGE%20ASSETS/Certifications_button_Click.png');		pre_Certifications_button_Up = newImage('IMAGE%20ASSETS/Certifications_button_Up.png');		pre_Certifications_button_Out = newImage('IMAGE%20ASSETS/Certifications_button_Out.png');		pre_Services_button_Over = newImage('IMAGE%20ASSETS/Services_button_Over.png');		pre_Services_button_Down = newImage('IMAGE%20ASSETS/Services_button_Down.png');		pre_Services_button_Click = newImage('IMAGE%20ASSETS/Services_button_Click.png');		pre_Services_button_Up = newImage('IMAGE%20ASSETS/Services_button_Up.png');		pre_Services_button_Out = newImage('IMAGE%20ASSETS/Services_button_Out.png');		pre_Testimonials_button_Over = newImage('IMAGE%20ASSETS/Testimonials_button_Over.png');		pre_Testimonials_button_Down = newImage('IMAGE%20ASSETS/Testimonials_button_Down.png');		pre_Testimonials_button_Click = newImage('IMAGE%20ASSETS/Testimonials_button_Click.png');		pre_Testimonials_button_Up = newImage('IMAGE%20ASSETS/Testimonials_button_Up.png');		pre_Testimonials_button_Out = newImage('IMAGE%20ASSETS/Testimonials_button_Out.png');		preloadFlag = true;	}}// --></script>		</csactiondict>		<style>div.scroll-container { background-color: #333; overflow: auto; white-space: nowrap; padding: 10px; } div.scroll-container img { padding: 10px; } </style>	</head>	<body onload="preloadImages();">		<p><img src="IMAGE%20ASSETS/StixNStonZBanner.png" alt="" height="150" width="100%" align="top" border="0" /></p>		<center><div id="container1">				<a href="tel:303-906-8513"><img src="IMAGE%20ASSETS/Phone_icon.png" alt="" height="40" width="40" align="left" border="0" /></a><a href="mailto:yarddogbrad@aol.com"><img src="IMAGE%20ASSETS/Mail_icon.png" alt="" height="40" width="40" align="left" border="0" /></a><a onclick="changeImages('AboutUs_button_Normal','IMAGE%20ASSETS/AboutUs_button_Click.png');" onmousedown="changeImages('AboutUs_button_Normal','IMAGE%20ASSETS/AboutUs_button_Down.png');return true" onmouseup="changeImages('AboutUs_button_Normal','IMAGE%20ASSETS/AboutUs_button_Up.png');return true" onmouseover="changeImages('AboutUs_button_Normal','IMAGE%20ASSETS/AboutUs_button_Over.png');return true" onmouseout="changeImages('AboutUs_button_Normal','IMAGE%20ASSETS/AboutUs_button_Out.png');return true" href="about.html"><img id="AboutUs_button_Normal" src="IMAGE%20ASSETS/AboutUs_button_Normal.png" alt="" name="AboutUs_button_Normal" width="160" height="50" border="0" /></a><a onclick="changeImages('Certifications_button_Normal','IMAGE%20ASSETS/Certifications_button_Click.png');" onmousedown="changeImages('Certifications_button_Normal','IMAGE%20ASSETS/Certifications_button_Down.png');return true" onmouseup="changeImages('Certifications_button_Normal','IMAGE%20ASSETS/Certifications_button_Up.png');return true" onmouseover="changeImages('Certifications_button_Normal','IMAGE%20ASSETS/Certifications_button_Over.png');return true" onmouseout="changeImages('Certifications_button_Normal','IMAGE%20ASSETS/Certifications_button_Out.png');return true" href="certifications.html"><img id="Certifications_button_Normal" src="IMAGE%20ASSETS/Certifications_button_Normal.png" alt="" name="Certifications_button_Normal" width="160" height="50" border="0" /></a><a onclick="changeImages('Services_button_Normal','IMAGE%20ASSETS/Services_button_Click.png');" onmousedown="changeImages('Services_button_Normal','IMAGE%20ASSETS/Services_button_Down.png');return true" onmouseup="changeImages('Services_button_Normal','IMAGE%20ASSETS/Services_button_Up.png');return true" onmouseover="changeImages('Services_button_Normal','IMAGE%20ASSETS/Services_button_Over.png');return true" onmouseout="changeImages('Services_button_Normal','IMAGE%20ASSETS/Services_button_Out.png');return true" href="services.html"><img id="Services_button_Normal" src="IMAGE%20ASSETS/Services_button_Normal.png" alt="" name="Services_button_Normal" width="160" height="50" border="0" /></a><a onclick="changeImages('Testimonials_button_Normal','IMAGE%20ASSETS/Testimonials_button_Click.png');" onmousedown="changeImages('Testimonials_button_Normal','IMAGE%20ASSETS/Testimonials_button_Down.png');return true" onmouseup="changeImages('Testimonials_button_Normal','IMAGE%20ASSETS/Testimonials_button_Up.png');return true" onmouseover="changeImages('Testimonials_button_Normal','IMAGE%20ASSETS/Testimonials_button_Over.png');return true" onmouseout="changeImages('Testimonials_button_Normal','IMAGE%20ASSETS/Testimonials_button_Out.png');return true" href="testimonials.html"><img id="Testimonials_button_Normal" src="IMAGE%20ASSETS/Testimonials_button_Normal.png" alt="" name="Testimonials_button_Normal" width="160" height="50" border="0" /></a></div></center>		<p></p>		<br></br>		<br></br>		<div class="scroll-container" style="width:100%; height:220px;">  <img src="stone-stair-steps.jpg" alt=“Stone Stairs” width="300" height="200">  <img src="WoodAndWireEntry.jpeg" alt=“Entryway” width="300" height="200">  <img src="WoodFencePerspective.JPG" alt=“Stone Wall and Fence” width="300" height="200">  <img src="BarkAndStoneLandscape.jpeg" alt=“Stonescape” width="300" height="200"></div>		<br></br>		<p><img src="IMAGE%20ASSETS/Services.png" alt="" height="230" width="100%" align="middle" border="0" /></p>	</body></html>
