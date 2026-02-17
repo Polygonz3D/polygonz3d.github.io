@@ -2,6 +2,20 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/midi.js@1.0.6/build/MIDI.min.js">
+<script>
+// Initialize MIDI.js with a SoundFont (e.g., piano)
+MIDI.loadPlugin({
+  soundfontUrl: "https://cdn.jsdelivr.net/npm/midi.js@1.0.6/soundfont/", // CDN SoundFonts
+  instruments: ["acoustic_grand_piano"], // Load instrument(s)
+  onsuccess: function() {
+    console.log("SoundFonts loaded!");
+  },
+  onerror: function(err) {
+    console.error("Failed to load SoundFonts:", err);
+  }
+});
+</script>
 
 <style>
 body {
@@ -30,6 +44,10 @@ div {
 <center>
 
 <h1>CHD</h1>
+<audio controls>
+  <source src="WagnerVal.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 <br></br>
 <img src="CHDspaceloop.gif" alt=“spacecrawl” width="100%">
 
