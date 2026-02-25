@@ -1,0 +1,39 @@
+# Block OpenAI's GPTBot User-agent: GPTBot Disallow: / 
+
+# Block Common Crawl Bot (CCBot) 
+User-agent: CCBot Disallow: / 
+
+# Block Perplexity AI Crawler 
+User-agent: PerplexityBot Disallow: /
+
+# Block You.com's YouBot User-agent: YouBot Disallow: / 
+
+# Block Meta's Slyph User-agent: Slyph Disallow: / 
+
+# Block Anthropic's ClaudeBot (if identified as a web crawler) 
+User-agent: ClaudeBot Disallow: / 
+
+# Block NeevaBot User-agent: NeevaBot Disallow: / 
+
+# Block generic AI bots that might identify themselves with AI in their user agent string 
+# Use with extreme caution, as this may block legitimate crawlers. 
+
+# It's generally better to list specific user agents. 
+
+# User-agent: *AI* 
+
+# Disallow: / 
+
+# Allow standard search engine crawlers, but ensure they respect your rules. 
+
+# You might want to keep these lines to ensure your site is indexed by search engines, 
+
+# while still blocking AI scrapers. 
+
+User-agent: Googlebot Disallow: 
+
+User-agent: Bingbot Disallow: 
+
+User-agent: DuckDuckBot Disallow: 
+
+# Add other legitimate search engine bots here if needed.
