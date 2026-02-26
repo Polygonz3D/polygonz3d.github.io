@@ -44,9 +44,3 @@ User-agent: Bingbot Disallow:
 User-agent: DuckDuckBot Disallow: 
 
 # Add other legitimate search engine bots here if needed.
-
-User-agent: Bingbot Disallow: 
-
-User-agent: DuckDuckBot Disallow: 
-
-# Add other legitimate search engine bots here if needed.
