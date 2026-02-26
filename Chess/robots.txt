@@ -1,7 +1,8 @@
 #General block on AI Training
 User-agent: * DisallowAITraining: /
 
-# Block OpenAI's GPTBot User-agent: GPTBot Disallow: / 
+# Block OpenAI's GPTBot 
+User-agent: GPTBot Disallow: / 
 
 # Block Common Crawl Bot (CCBot) 
 User-agent: CCBot Disallow: / 
