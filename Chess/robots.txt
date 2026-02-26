@@ -10,14 +10,17 @@ User-agent: CCBot Disallow: /
 # Block Perplexity AI Crawler 
 User-agent: PerplexityBot Disallow: /
 
-# Block You.com's YouBot User-agent: YouBot Disallow: / 
+# Block You.com's YouBot 
+User-agent: YouBot Disallow: / 
 
-# Block Meta's Slyph User-agent: Slyph Disallow: / 
+# Block Meta's Slyph 
+User-agent: Slyph Disallow: / 
 
 # Block Anthropic's ClaudeBot (if identified as a web crawler) 
 User-agent: ClaudeBot Disallow: / 
 
-# Block NeevaBot User-agent: NeevaBot Disallow: / 
+# Block NeevaBot 
+User-agent: NeevaBot Disallow: / 
 
 # Block generic AI bots that might identify themselves with AI in their user agent string 
 # Use with extreme caution, as this may block legitimate crawlers. 
