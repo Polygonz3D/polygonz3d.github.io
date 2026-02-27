@@ -17,8 +17,8 @@ User-agent: YouBot Disallow: /
 User-agent: Slyph Disallow: / 
 
 # Block Anthropic's ClaudeBot (if identified as a web crawler) 
-User-Agent: ClaudeBot
-User-Agent: Claude-User
+User-Agent: ClaudeBot Disallow: / 
+User-Agent: Claude-User Disallow: / 
 User-Agent: Claude-SearchBot Disallow: / 
 
 # Block NeevaBot 
