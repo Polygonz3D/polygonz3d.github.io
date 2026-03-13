@@ -16,12 +16,38 @@ body {
 h2, p {
   margin: 10px; width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 footer {
   background-color: #000000;
   padding: 10px;
   text-align: center;
   color: white;
+}
+</style>
+
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #8f8c8c;
 }
 </style>
 
@@ -73,10 +99,46 @@ window.location="https://tommyvon.bandcamp.com/"
 //-->
 </script>
 </p>
+<br></br>
+<br></br>
+<h2>Bands! Get in the Shuffle!</h2>
+<p>
+<div style="background-color: #8f8c8c; padding: 10px; text-align: center;”>
+<form action="mailto:buddhatimeproductions@gmail.com” method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size=“100"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</div>
+</p>
+<br></br>
+<br></br>
+
+<p>Full Band List</p>
+<button type="button" class="collapsible">Open List</button>
+<div class="content">
+  <p>
+<br></br>
+<a href="https://www.youtube.com/@jimibleu9508/videos">Jimi Bleu Xperience</a>
+<br></br>
+<br></br>
+<a href="https://www.reverbnation.com/hitormyst">MYST</a>
+<br></br>
+<br></br>
+<a href="https://tommyvon.bandcamp.com/">Tommy Von</a>
+<br></br>
+</p>
+</div>
 </center>
 
 <footer>
 <center>
+<br></br>
 <p>Buddha Tone Records 2026</p>
 <br></br>
 <a href="https://sites.google.com/site/tommyvonmusic/buddha-tone">
@@ -87,5 +149,21 @@ window.location="https://tommyvon.bandcamp.com/"
 
 </center>
 </footer>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 </html>
