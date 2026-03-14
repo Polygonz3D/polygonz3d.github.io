@@ -84,10 +84,21 @@ var image2=new Image()
 image2.src="MystHeads2013_sm_.jpg"
 var image3=new Image()
 image3.src="TvmLogo.jpg"
+var image4=new Image()
+image4.src="JonnyJohnson.jpg"
+var image5=new Image()
+image5.src="AustinFudge.jpg"
 //-->
 </script>
 
 </head>
+
+<header>
+<center>
+<a href="https://sites.google.com/site/tommyvonmusic/buddha-tone">
+<img src="BTHMP_logo.jpg" alt=“Buddha Tone” width=100% height=25%>
+</center>
+</header>
 
 <body>
 <center>
@@ -103,7 +114,7 @@ if (!document.images)
 return
 document.images.slide.src=eval("image"+step+".src")
 whichimage=step
-if (step<3)
+if (step<5)
 step++
 else
 step=1
@@ -117,6 +128,10 @@ else if (whichimage==2)
 window.location="https://www.reverbnation.com/hitormyst"
 else if (whichimage==3)
 window.location="https://tommyvon.bandcamp.com/"
+else if (whichimage==4)
+window.location="https://jonnyjohnson.bandcamp.com/"
+else if (whichimage==5)
+window.location="https://austinfudge.bandcamp.com/"
 }
 //-->
 </script>
